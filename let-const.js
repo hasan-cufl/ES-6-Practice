@@ -14,6 +14,8 @@ patientName = "jamal";
 patientName = "hasina";
 console.log(patientName)
 
+
+// let is a leak-proof varible but var is not leak-proof.
 let sum = 0;
 for (let i = 0; i < 10; i++) {
     sum = sum + i;
